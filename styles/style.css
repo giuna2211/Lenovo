@@ -9,3 +9,32 @@ body {
     color: #fff;
     padding: 0 8%;
 }
+
+body {
+    background-image: url(სურათს ვერ ვსვავ :)))
+    margin: 20px;
+}
+
+h1 {
+    color:rgb(37, 37, 139)
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border-top: blue;
+}
+
+p {
+    color: rgb(7, 160, 187);
+    font-size: 15px;
+}
+
+a {
+    padding: 1px 2px;
+    }
+
+ul,
+ol {
+    padding-right: 20px;
+}
