@@ -1,0 +1,11 @@
+body {
+    min-height: 100px;
+    width: 100px;
+    background-color: #000;
+    background-image: url(https://media3.giphy.com/media/Q34Q46x7bUUKJfbn0s/giphy.gif?cid=ecf05e47uqw3iopfl7n9sd0qcdplddftfvftaqss9z1xz9wj&rid=giphy.gif&ct=g);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
