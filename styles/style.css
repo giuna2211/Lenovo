@@ -1,22 +1,35 @@
-body {
-    min-height: 100px;
-    width: 100px;
-    background-color: #000;
-    background-image: url(https://media3.giphy.com/media/Q34Q46x7bUUKJfbn0s/giphy.gif?cid=ecf05e47uqw3iopfl7n9sd0qcdplddftfvftaqss9z1xz9wj&rid=giphy.gif&ct=g);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    color: #fff;
-    padding: 0 8%;
+.diplay-inline-block {
+    display: inline block;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+.container-2 {
+    width: 800px;
+    margin: auto;
+    display: inline;
 }
 
 body {
-    background-image: url(სურათს ვერ ვსვავ :)))
-    margin: 20px;
+    padding: 20px;
+    background-image: url(./ww-lenovo-legionUltimateSupport-bladeThree-meta.jpg);    
 }
 
 h1 {
-    color:rgb(37, 37, 139)
+    text-decoration: underline 3px;
+    text-shadow: 0.5px 0.5px 0.5px rgb(39, 28, 194);
+    color:rgb(253, 253, 253)   
+}
+h2 {
+    color: rgb(253, 253, 253);
+    text-shadow: 0.5px 0.5px 0.5px;
+    text-decoration: rgb(36, 1, 236);
+}
+
+.list-1 {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 img {
@@ -26,7 +39,8 @@ img {
 }
 
 p {
-    color: rgb(7, 160, 187);
+    text-shadow: 1px 1px 1px rgb(36, 1, 236);
+    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
@@ -34,7 +48,22 @@ a {
     padding: 1px 2px;
     }
 
-ul,
-ol {
+
+ul {
     padding-right: 20px;
+    font-size: 16px;
+}
+
+li.active {
+    color: wheat;
+}
+
+li.active-2 {
+    color: white;
+}
+
+
+
+table {
+    color: white;
 }
