@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    width: 1000px;
+    margin: auto;
     background-image: url(./37263209374_8c99bdd435_h.jpg);
     background-size: 100%
 }
@@ -35,8 +36,27 @@ header .container {
     text-decoration: none;
 }
 
+.welcome-container {
+    padding: 30px 0;
+}
+
+.welcome-container img {
+    max-width: 50%;
+}
+
+.welcome-container .text-wrapper {
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-wrapper h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
 .container {
-    width: 1500px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -55,7 +75,7 @@ h2 {
     padding-bottom: 30px;
 }
 
-img {
+.img-2 {
     width: 500px;
     height: 350px;
     border-top: blue;
