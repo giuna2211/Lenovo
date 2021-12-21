@@ -1,5 +1,4 @@
 body {
-    width: 1000px;
     margin: auto;
     background-image: url(./37263209374_8c99bdd435_h.jpg);
     background-size: 100%
@@ -152,7 +151,7 @@ table {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    width: 30px;
+    width: 90px;
     height: 25px;
     align-items: center;
     gap: 8px;
