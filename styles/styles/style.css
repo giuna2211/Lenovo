@@ -43,11 +43,13 @@ span {
 
 .top-panel .question {
     padding-right: 400px;
+    gap: 5px;
 }
 
 
 .top-panel .language {
     padding-right: 100px;
+    gap: 5px;
 }
 
 header {
