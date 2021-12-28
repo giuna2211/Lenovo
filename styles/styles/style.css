@@ -1,0 +1,72 @@
+
+body {
+    background-color: rgb(217, 238, 236);
+    margin: 0%;
+    font-family: 'ALK Rounded Mtav Med';
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+span {
+    color: white;
+    font-size: 14px;
+}
+
+.top-panel {
+    padding: 3px 0 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    height: 14px;
+    align-items: center;
+    background-color: tomato;
+}
+
+.top-panel a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.top-panel p {
+    color: white;
+}
+
+.top-panel .container {
+    justify-content: space-between;
+}
+
+.top-panel .question {
+    padding-right: 400px;
+}
+
+
+.top-panel .language {
+    padding-right: 100px;
+}
+
+header {
+    background-color: rgb(152, 189, 186);
+    height: 70px;
+    align-items: center;
+}
+
+.logo img {
+    display: table;
+    width: 80px;
+    height: 40px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .container {
+    justify-content: space-between;
+}

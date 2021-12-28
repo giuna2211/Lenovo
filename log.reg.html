@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body>
+        <link rel="stylesheet" href="./reg.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <div class="top-panel d-flex">
+            <div class="container d-flex">
+                <div>
+                    <span class="tel">საინფორმაციო ცენტრი: <a href="tel:(032) 290-05-00">(032) 290-05-00</a></span>
+                </div>
+                <div class="question">    
+                    <a href="">მაღაზიები</a>
+                    <a href="">როგორ შევიძინო?</a>
+                </div>
+                <div class="language">
+                    <a href="">English</a>
+                    <a href="">ქართული</a>
+                </div>                
+            </div>
+        </div>
+        <header class="d-flex">
+            <div class="container d-flex">
+                <nav>
+                    <div class="logo">
+                        <a href=""><img src="./assets/img/Lenovo_logo_black.png" alt=""></a>
+                    </div>
+                        <a href="">Laptops</a>
+                        <a href="">Tablets</a>
+                        <a href="">Aio</a>
+                </nav>
+                <div>
+                    <a href="">Search</a>
+                    <a href="">შესვლა</a>
+                    <a href="./log.reg.html" target="Registration">რეგისტრაცია</a>
+                    <a href="">Suport</a>
+                </div>         
+            </div>    
+        </header>
+    <div class="container">
+
+        <div>
+            <form>
+                <div>
+                    <label  for="firstName">სახელი</label>
+                    <input class="text-input" type="text" name="firstName" id="firstName"
+                        placeholder="ჩაწერეთ თქვენი სახელი">
+                </div>
+                <div>
+                    <label class="text-input-label" for="lastName">გვარი</label>
+                    <input class="text-input" type="text" name="lastName" id="lastName"
+                        placeholder="ჩაწერეთ თქვენი გვარი">
+                </div>
+                <div>
+                    <label class="text-input-label" for="userEmail">მომხმარებლის ელ-ფოსტა</label>
+                    <input class="text-input" type="email" name="userEmail" id="userEmail"
+                        placeholder="ჩაწერეთ თქვენი ელ-ფოსტა">
+                </div>
+                <div>
+                    <label for=>დაბადების თარიღი</label>
+                    <input class="text-input" type="date" name="birthDate" id="birthDate"
+                        placeholder="ჩაწერეთ თქვენი გვარი">
+                </div>
+                <div>
+                    <label for="birthDate">დაბადების თარიღი</label>
+                    <select>
+                        <option>საქართველო</option>
+                        <option>საბერძნეთი</option>
+                        <option>ამერიკა</option>
+                        <option>ბრიტანეთი</option>
+                    </select>
+                </div>
+                <div>
+                    <div>
+                        <input type="radio" name="sex" id="male">
+                        <label for="male">კაცი</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sex" id="famale">
+                        <label for="famale">ქალი</label>
+                    </div>
+                </div>
+                <div></div>
+                    <label class="text-input-label" for="pass">პაროლი</label>
+                    <input class="text-input" type="password" name="pass" id="pass">
+                </div>
+                <div>
+                    <label for="passReplay">გაიმეორე პაროლი</label>
+                    <input type="password" name="passReplay" id="passReplay">
+                </div>
+                <button>რეგისტრაცია</button>
+                <a class="btn btn-link" href="./auth.html">ავტორიზაცია</a>
+            </form>
+        </div>
+    </div>
+
+</body> 
+</html>
