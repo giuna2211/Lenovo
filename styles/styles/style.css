@@ -24,7 +24,7 @@ span {
     border-bottom: 1px solid rgb(255, 255, 255);
     height: 14px;
     align-items: center;
-    background-color: tomato;
+    background-color: #000000;
 }
 
 .top-panel a {
@@ -43,19 +43,19 @@ span {
 
 .top-panel .question {
     padding-right: 400px;
-    gap: 5px;
+    gap: 10px;
 }
 
 
 .top-panel .language {
-    padding-right: 100px;
-    gap: 5px;
+    padding-right: 80px;
+    gap: 10px;
+    align-items: center;
 }
 
 header {
     background-color: rgb(152, 189, 186);
     height: 70px;
-    align-items: center;
 }
 
 .logo img {
@@ -72,6 +72,22 @@ header a {
 header .container {
     justify-content: space-between;
 }
+
+header .panel-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
 
 .card {
     width: 25%;
@@ -121,4 +137,13 @@ header .container {
 
 .d-inline-flex {
     display: inline-flex;
+}
+
+.welcome-container div .panel {
+    width: 50%;
+    color: red;
+}
+
+.welcome-container div .panel2 {
+    width: 50%;
 }
