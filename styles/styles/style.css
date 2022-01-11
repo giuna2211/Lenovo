@@ -1,149 +1,119 @@
-
-body {
-    background-color: rgb(217, 238, 236);
-    margin: 0%;
-    font-family: 'ALK Rounded Mtav Med';
-}
-
-.container {
-    width: 1150px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .d-flex {
     display: flex;
 }
 
-span {
-    color: white;
-    font-size: 14px;
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
-.top-panel {
-    padding: 3px 0 5px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    height: 14px;
-    align-items: center;
-    background-color: #000000;
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
 }
 
-.top-panel a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
+#slideImg {
+    width: 100%;
+    height: 100%;
+    animation: zoom 3s linear infinite;
 }
 
-.top-panel p {
-    color: white;
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    15%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
 }
 
-.top-panel .container {
-    justify-content: space-between;
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)),rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
 }
 
-.top-panel .question {
-    padding-right: 400px;
-    gap: 10px;
-}
-
-
-.top-panel .language {
-    padding-right: 80px;
-    gap: 10px;
-    align-items: center;
-}
-
-header {
-    background-color: rgb(152, 189, 186);
-    height: 70px;
+.logo {
+    flex-basis: 15%;
 }
 
 .logo img {
-    display: table;
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    cursor: pointer;
 }
 
-header a {
+.navbar {
+    width: 85%;
+    align-items: center;
+    margin: 35px auto;
+}
+
+.menu-icons {
+    flex: 1;
+    align-items: center;
+    text-align: right;
+}
+
+.menu-icons img {
+    width: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.menu-icons a {
     color: white;
-    text-decoration: none;
 }
 
-header .container {
-    justify-content: space-between;
+.content {
+    width: 60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: white;
 }
 
-header .panel-1 {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.content h1 {
+    font-size: 60px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
+.content h3 {
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
 }
 
-nav a {
-    padding: 0 10px;
+.button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgba(4, 102, 94, 0.288);
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s;
 }
 
-
-.card {
-    width: 25%;
-}
-
-.card .product-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    display: block;
-}
-
-.card h1 {
-    font-size: 24px;
-    margin: 0 0 10px;
-}
-
-.img-container {
-    position: relative;
-}
-
-.sale-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.img-container .sale-btn {
-    width: 50px;
-    height: 40px;
-}
-
-.buy-btn {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 90px;
-    height: 25px;
-    align-items: center;
-    gap: 8px;
-    padding: 5px 10px;
-    color: rgb(206, 206, 206);
-    border-radius: 10px;
-    background-color: red;
-}
-
-
-.d-inline-flex {
-    display: inline-flex;
-}
-
-.welcome-container div .panel {
-    width: 50%;
-    color: red;
-}
-
-.welcome-container div .panel2 {
-    width: 50%;
+button:hover {
+    background: transparent;
+    border: 2px solid #fff;
 }
