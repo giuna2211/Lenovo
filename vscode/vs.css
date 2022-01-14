@@ -82,7 +82,7 @@ header nav {
     width: 20px;
 }
 
-.download-btn {
+header .download-btn {
     height: 50px;
     align-items: center;
     gap: 8px;
@@ -91,3 +91,67 @@ header nav {
     border-radius: 0;
     padding-inline: 22px;
 }
+
+.notification-block {
+    background-color: black;
+    align-items: center;
+    height: 27px;
+}
+
+.notification-block p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-block: 15px ;
+    text-align: center;
+}
+
+.notification-block a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-section .welcome-img {
+    width: 70%;
+}
+
+.welcome-section .text-block {
+    width: 30%;
+    text-align: center;
+}
+
+.text-block h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-block h1 span {
+    display: block;
+}
+
+.text-block p {
+    text-align: center;
+}
+
+.text-block .download-btn h6 {
+    margin: 0 ;
+}
+
+.text-block .download-btn {
+    background-color: rgb(66, 189, 103);
+    color: rgb(230, 230, 230);
+    height: 50px;
+}
+
+.text-block .download-btn div:first-child {
+    width: 80%;
+    padding: 10px 15px;
+}
+
+.text-block .download-btn div:last-child {
+    width: 20%;
+    height: 100%;
+    border-left: 3px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
