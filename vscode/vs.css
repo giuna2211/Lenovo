@@ -110,6 +110,10 @@ header .download-btn {
     text-decoration: none;
 }
 
+.welcome-section {
+    padding-top: 10px;
+}
+
 .welcome-section .welcome-img {
     width: 70%;
 }
@@ -117,6 +121,7 @@ header .download-btn {
 .welcome-section .text-block {
     width: 30%;
     text-align: center;
+    padding-right: 20px;
 }
 
 .text-block h1 {
