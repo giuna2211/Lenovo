@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
 .d-flex {
     display: flex;
 }
