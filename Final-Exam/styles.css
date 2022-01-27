@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 18px;
+    width: 1440px;
+    margin: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 108px 0;
+}
+
+.history {
+    text-align: center;
+    width: 730px;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.history h2 {
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#565555;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+p{
+    color: #a0a3a5;
+    padding-top: 18px;
+}
+
+.history p {
+    font-size: 20px;
+}
+
+.download {
+    margin-top: 45px;
+    justify-content: center;
+    justify-items: center;
+    gap: 14px;
+}
+
+.download-btn1 {
+    color: white;
+    text-decoration: none;
+    padding: 15px 43px;
+    border-radius: 50px;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:0px 2.3px hsla(171, 60%, 35%, 0.789)
+}
+
+.download-btn2 {
+    color: white;
+    text-decoration: none;
+    padding: 15px 43px;
+    border-radius: 50px;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2.3px hsla(233, 66%, 61%, 0.462);
+}
+
+.keep .container {
+    text-align: center;
+    width: 760px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+.keep .app {
+    margin-top: 70px;
+}
+
+.app .left img {
+    width: 100%;
+}
+
+.app .right {
+    justify-content: center;
+    align-items: center;
+}
+.app .right .right-container {
+    margin-right: 17%;
+    height: 85%;
+    width: 54%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.description p {
+    line-height: 33px;
+    margin-top: -10px;
+}
+
+.accessibility {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.accessibility img {
+    margin-top: 80px;
+}
+
+.accessibility-container {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;   
+}
+
+.tools {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.grid-container {
+    display: grid;  
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 90px 8%;
+    gap: 25px;
+}
+
+.grid-container h5 {
+    padding-top: 20px;
+}
+
+.grid-container img {
+    width: 40px;
+    height: 30px;
+}
+
+.brands {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.brands-grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin: 0 5%;
+    align-items: center;
+}
+
+.install-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.install {
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #f5f7f8;
+    align-items: center;
+    padding: 43px 0;
+}
+
+footer .container {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+
+
+footer .menu {
+    justify-content: space-between;
+    margin-right: 193px;
+}
+
+footer .menu div:first-child {
+    gap: 15px;
+}
+
+footer .menu .mg {
+    gap: 15px;
+}
+
+footer .menu .menu-items {
+    flex-direction: column;
+    display: flex;
+    font-size: 19px;
+}
+
+footer .logo img {
+    width: 60px;
+    height: 60px;
+}
+
+footer .social-icons {
+    align-items: center;
+    gap: 18px;
+    justify-content: end;
+}
+
+
