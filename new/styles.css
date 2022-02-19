@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    width: 414px;
+    margin: auto;
+    height: 896px;
+    background-color: aliceblue;
+}
+
+header {
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    width: 358px;
+    background-color: aliceblue;
+}
+
+header .logo {
+    align-items: center;
+    gap: 5px;
+}
+
+header .logo img {
+    width: 9.29px;
+    height: 15.75px;
+}
+
+header .logo span {
+    font-size: 24px;
+    font: bold;
+    width: 104px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo .eth {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0db7b7;
+    border-radius: 19px;
+}
+
+header .search {
+    gap: 10px;
+}
+
+header .search .search-btn {
+        background-color: white;
+        height: 46px;
+        width: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        border: 1px solid #00000026;
+}
+
+header .search .search-btn img {
+    width: 22px;
+    height: 22px;
+}
+
+header .search .notification-block {
+    background-color: white;
+    height: 46px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    border: 1px solid #00000026;
+}
+
+header .search .notification-block img {
+    width: 22px;
+    height: 22px;
+}
+
+.d-flex {
+    display: flex;
+}
