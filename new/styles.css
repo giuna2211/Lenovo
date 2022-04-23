@@ -24,11 +24,6 @@ header .logo {
     gap: 5px;
 }
 
-header .logo img {
-    width: 9.29px;
-    height: 15.75px;
-}
-
 header .logo span {
     font-size: 24px;
     font: bold;
@@ -47,6 +42,11 @@ header .logo .eth {
     align-items: center;
     background-color: #0db7b7;
     border-radius: 19px;
+}
+
+header .logo .eth img {
+    height: 15.75px;
+    width: 9.29px;
 }
 
 header .search {

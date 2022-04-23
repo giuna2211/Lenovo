@@ -1,0 +1,116 @@
+@import './Variables/colors.css';
+@import './styles/components/buttons.css';
+@import './styles/components/typo.css;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+:root {
+    --lfont: 'Lato', sans-serif;
+    --sfont: 'Spartan', sans-serif;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+body {
+    background: var(--color-white);
+}
+
+.container {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+header .icon-title a {
+    font-family: var(--lfont);
+    font-weight: var(--medium);
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--color-black);
+}
+
+header nav {
+    display: flex;
+    gap: 44px;
+}
+
+header nav a {
+    font-family: var(--lfont);
+    font-weight: var(--regular);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons .sign-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #263238;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.sign-btn a {
+    font-family: var(--lfont);
+    font-weight: var(--medium);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
+.buttons .start-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: var(--color-green);
+}
+
+.buttons .start-btn a {
+    font-family: var(--lfont);
+    font-weight: var(--medium);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-white);
+}
+
+.patterns .pattern-1 {
+    left: -15px;
+    top: -242px;
+    position: absolute;
+}
+
+.patterns .pattern-1 img {
+    height: 585px;
+    width: 585px;
+}
