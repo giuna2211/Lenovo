@@ -1,19 +1,251 @@
 /*
+
+@media screen and (max-width: 1920px) {
+    .main {
+        width: 1200px;
+        margin: 127px auto;
+    }
+
+    .cm-logo {
+        width: 1200px;
+        margin: 208px auto;
+    }
+
+    .welcome-section {
+        width: 1200px;
+        margin: 200px auto;
+    }
+
+    .investment {
+        width: 1200px;
+        margin: 200px auto;
+    }
+
+    .choose {
+        width: 1200px;
+        margin: 200px auto;
+    }
+
+    .costumer {
+        width: 1200px
+        margin: 200px auto;
+    }
+
+    .img-container {
+        width: 1200px;
+        margin: 200px auto;
+    }
+
+    footer {
+        width: 1200px;
+        margin: 68px auto;
+    }
+}
+
+*/
+
+
+
+@media screen and (max-width: 1200px) {
+
+    header nav {
+        display: flex;
+        margin-left: 352px;
+        align-items: center;
+        gap: 44px;
+    }
+
+    header .container {
+        margin-left: 170px;
+    }
+
+
+    header .buttons {
+        margin-left: 240px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .main {
+        width: 992px;
+        margin: 127px auto;
+        margin-left: 330px;
+    }
+
+    .cm-logo {
+        width: 992px;
+        margin: 208px auto;
+    }
+
+    .welcome-section {
+        width: 992px;
+        margin: 200px auto;
+    }
+
+    .investment {
+        width: 992px;
+        margin: 200px auto;
+    }
+
+    .choose {
+        width: 992px;
+        margin: 200px auto;
+    }
+
+    .costumer {
+        width: 992px;
+        margin: 200px auto;
+    }
+
+    .img-container {
+        width: 992px;
+        margin: 200px auto;
+    }
+
+    footer {
+        width: 992px;
+        margin: 68px auto;
+    }
+}
+
 @media screen and (max-width: 992px) {
-    .container {
+
+
+    header .buttons {
+        margin-left: 260px;
+    }
+
+    .patterns .pattern-3 {
+        position: absolute;
+        right: -180px;
+        top: 150px;
+    }
+
+    .patterns .pattern-4 {
+        position: absolute;
+        left: 377px;
+        top: 390px;
+    }
+
+    .patterns .pattern-5 {
+        position: absolute;
+        top: 436px;
+        left: 1270px;
+    }
+
+    .patterns .pattern-6 {
+        position: absolute;
+        top: 266px;
+        left: 1521px;
+    }
+
+    .patterns .pattern-7 {
+        position: absolute;
+        left: 235px;
+        top: 440px;
+    }
+
+    .patterns .pattern-8 {
+        position: absolute;
+        left: 505px;
+        top: 500px;
+    }
+
+    .patterns .pattern-9 {
+        position: absolute;
+        left: 1300px;
+        top: 780px;
+    }
+
+    .main {
         width: 768px;
+        margin: 127px auto;
+        padding-left: 700px;
+    }
+
+    .cm-logo {
+        width: 768px;
+        margin: 208px auto;
+    }
+
+    .welcome-section {
+        width: 768px;
+        margin: 200px auto;
+    }
+
+    .investment {
+        width: 768px;
+        margin: 200px auto;
+    }
+
+    .choose {
+        width: 768px;
+        margin: 200px auto;
+    }
+
+    .costumer {
+        width: 768px;
+        margin: 200px auto;
+    }
+
+    .img-container {
+        width: 768px;
+        margin: 200px auto;
+    }
+
+    footer {
+        width: 768px;
+        margin: 68px auto;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .main {
         width: 576px;
+        margin: 127px auto;
+    }
+
+    .cm-logo {
+        width: 576px;
+        margin: 208px auto;
+    }
+
+    .welcome-section {
+        width: 576px;
+        margin: 200px auto;
+    }
+
+    .investment {
+        width: 576px;
+        margin: 200px auto;
+    }
+
+    .choose {
+        width: 576px;
+        margin: 200px auto;
+    }
+
+    .costumer {
+        width: 576px;
+        margin: 200px auto;
+    }
+
+    .img-container {
+        width: 576px;
+        margin: 200px auto;
+    }
+
+    footer {
+        width: 576px;
+        margin: 68px auto;
     }
 }
 
+
 @media screen and (max-width: 576px) {
-    .container {
+    .main {
         width: 100%;
+        margin: 127px auto;
     }
 }
-*/

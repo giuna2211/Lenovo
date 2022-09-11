@@ -48,6 +48,11 @@ body {
     margin: 0% auto;
 }
 
+header {
+    width: 100%;
+}
+
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -141,8 +146,8 @@ header nav a {
 
 .pattern-3 {
     position: absolute;
-    left: 65.7%;
-    top: 15.12%;
+    right: 600px;
+    top: 150px;
 }
 
 .pattern-4 {
@@ -188,7 +193,8 @@ header nav a {
 }
 
 .main {
-    margin-top: 127px;
+    width: 1200px;
+    margin:127px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +271,8 @@ header nav a {
 }
 
 .cm-logo {
-    margin-top: 208px;
+    width: 1486px;
+    margin:208px auto;
 }
 
 .main-container {
@@ -283,7 +290,7 @@ header nav a {
 }
 
 .welcome-section {
-    margin-top: 200px;
+    margin: 208px auto;
 }
 
 .welcome-section .main-container {
@@ -696,6 +703,8 @@ footer .contact input {
 .footer-botton .botton .privacy a {
     margin-left: 40px;
 }
+
+
 
 
 
