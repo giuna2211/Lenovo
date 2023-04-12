@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header .container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #c6d4cb94;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header .container .search {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+header .container .search .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container nav a {
+    padding: 30px 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header .container .search input {
+    height: 45px;
+    width: 170px;
+}
+
+.search .file button img {
+    width: 30px;
+    height: 30px;
+}
+
+.search .file .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 130px;
+    background-color: #03170521;
+}
+
+.new-project {
+    margin-top: 40px;
+}
+
+.new-project .container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-project .container .title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-project .container .title p {
+    text-align: center;
+}
+
+.new-project .container .img-text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-project .container h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.new-project .container img {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.new-project .container p {
+    margin-top: 30px;
+    color: blue;
+    font-size: 30px;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+
+.card .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+
+.pizza-card {
+    width: 360px;
+    height: 528px;
+}

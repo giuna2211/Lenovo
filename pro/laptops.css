@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header .container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #5295d8;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header .container .search {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .search .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container nav a {
+    padding: 30px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+header .container .search input {
+    height: 60px;
+    width: 185px;
+    display: flex;
+    text-align: center;
+}
+
+header .container .search input::placeholder {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.file {
+    border-left: 1px solid black;
+}
+
+.search .file button img {
+    width: 30px;
+    height: 30px;
+}
+
+.search .file .authorization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 130px;
+    background-color: #03170521;
+}
+
+.authorization a {
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    width: 1350px;
+    margin: 30px auto;
+}
+
+.main-content .accordion {
+    width: 25%;
+    padding-inline: 15px;
+}
+
+.accordion-item-header {
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-item-header::after {
+    content: "\25BE";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 36%;
+}
+
+.accordion-item-header.active::after {
+    transform: rotate(180deg);
+}
+
+.accordion-item-header + .accordion-item-body {
+    display: none;
+  }
+
+.accordion-item-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+
+
+.accordion-item-body-content a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.laptop-card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.main-content .laptops {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-content .laptops a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: rgb(5, 92, 0);
+    font-size: 30px;
+}
+
+.main-content .laptops h1 {
+    font-size: 30px;
+}
+
+.laptop-card {
+    width: 100%;
+    border-bottom: 10px;
+    min-height: 350px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.laptop-img {
+    width: 100%;
+    height: 250px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+.laptop-card h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.price {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.price p {
+    text-decoration-line: line-through;
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.discount {
+    position: absolute;
+    top: 3%;
+    right: 12%;
+}
+
+.discount img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.laptop-card .shopping {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 9px;
+}
+
+.buy-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buy-btn .btn-1 {
+    display: flex;
+}
+
+.buy-btn .new-svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-1 img {
+    width: 30px;
+    height: 20px;
+}
+
+.btn-1 button {
+    display: flex;
+    align-items: center;
+}
+
+.btn-1 button span {
+    padding: 13px 13px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #673ab7;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-1 button span:hover {
+    background: rgb(227, 70, 70);
+}
+
